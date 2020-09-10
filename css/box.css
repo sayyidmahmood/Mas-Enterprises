@@ -1,0 +1,466 @@
+
+
+
+/* Navigation Menu */
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+  background: none;
+}
+
+.nav-tabs>li>a {
+  border: 0;
+}
+
+
+
+
+
+ul.nav.nav-tabs {
+  border-bottom: 0;
+}
+
+ul.nav.nav-tabs li a,
+ul.nav.nav-tabs li.active a {
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 1px solid #555;
+  border-radius: 0;
+  font-size: 15px;
+  color: rgb(206, 51, 136);
+  padding: 0 30px;
+  margin: 15px 0 25px;
+  text-transform: uppercase;
+}
+
+ul.nav.nav-tabs li.active a {
+  font-weight: 600;
+}
+
+ul.nav.nav-tabs li:first-child a {
+  border-left: 0;
+  padding-left: 0;
+}
+
+ul.nav.nav-tabs li a:hover,
+ul.nav.nav-tabs li.active a:hover {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
+
+
+
+/* Custom Button */
+
+.custom-button {
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background: #00bbda;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  position: relative;
+  letter-spacing: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 10px;
+  text-transform: uppercase;
+  padding: 12px 33px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.custom-button,
+.custom-button:hover,
+.custom-button:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.custom-button:before {
+  content: "\f1d8";
+  font: 15px/1.2em FontAwesome;
+  color: #fff;
+  position: absolute;
+  height: 100%;
+  right: 18px;
+  top: 50%;
+  margin-top: -10px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.custom-button span {
+  position: relative;
+  display: block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.custom-button:hover span {
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+
+.custom-button:hover:before {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/*----------------------------------------*/
+/* 7.Counter Area
+/*----------------------------------------*/
+.counter-area{
+  background:#555;  padding-top: 40px;padding-bottom: 50px;
+}
+.cou{
+  padding-bottom: 25px; 
+}
+.counter-inner {
+   background: #f6f6f6;
+   padding: 100px 30px 100px 70px;
+}
+.fun_text {
+   text-align: center;
+   padding: 30px 10px;
+   border-radius: 10px;
+ background: #fff;
+ height: 250px;
+}
+.fun_text:nth-child(3n){
+ margin-right: 0px;
+}
+.fun_text span {
+   color: #fd5f16;
+   display: block;
+   font-size: 40px;
+   font-weight: bold;
+   padding-bottom: 10px;
+   line-height: 60px;
+}
+.fun_text > h5 {
+   color: #444;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-bottom: 0;
+}
+
+
+/* Slider */
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: block;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+
+.mc{
+  padding-top: 130px;
+}
+
+
+
+
+
+
+
+
+img {
+    max-width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    padding: 10px 15px;
+    width: 100%;
+}
+input[type="submit"] {
+    background: #0db8ca none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+
+.padding {
+    padding: 80px 0;
+}
+.section-title:after {
+    background: #0db8ca none repeat scroll 0 0;
+    bottom: -20px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -68px;
+    position: absolute;
+    width: 135px;
+}
+.white-title {
+    color: #fff;
+}
+.section-content p {
+    padding: 0 105px;
+}
+.section-content {
+    margin: 0 0 50px;
+}
+.section-title:before {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #0db8ca;
+    bottom: -25px;
+    content: "";
+    height: 12px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 12px;
+    z-index: 1;
+}
+
+/* Service CSS - 08 */
+
+.single-service-item {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 45px 20px;
+}
+.service-content h3 {
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+.service-icon i.fa {
+    font-size: 25px;
+    margin: 0 0 15px;
+}
+.single-service-item:hover {
+    background: #0db8ca none repeat scroll 0 0;
+    color: #fff;
+}
+.single-service-item:hover .service-icon {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+}
+.service-icon {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.section-title {
+    font-weight: 900;
+    margin: 0 0 35px;
+    position: relative;
+    text-transform: uppercase;
+}
+/* Testimonial CSS - 09 */
+
+.testimonial-img {
+    height: 65px;
+    margin: 0 auto;
+    width: 65px;
+}
+.testimonial-img img {
+    border-radius: 50%;
+}
+.testimonial-text {
+    background: #0db8ca none repeat scroll 0 0;
+    color: #fff;
+    margin: 30px 0 0;
+    padding: 25px;
+    position: relative;
+}
+.testimonial-text:before {
+    border-bottom: 16px solid #0db8ca;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -17px;
+    position: absolute;
+    top: -16px;
+    width: 0;
+}
+.testimonial-text span {
+    color: #f1f1f1;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 10px 0 0;
+}
+.testimonial-text h4 {
+    margin: 15px 0 0;
+}
+.testimonial-wraper .owl-nav div {
+    background: #0db8ca none repeat scroll 0 0;
+    border: 2px solid #0db8ca;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 35px;
+    line-height: 27px;
+    margin: 20px 5px 0;
+    text-align: center;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 35px;
+}
+.testimonial-wraper .col-md-4 {
+    width: 100%;
+}
+
+/* Newsletter CSS - 13 */
+
+.newsletter-from input[type="email"] {
+    border: 3px solid #0db8ca;
+    margin: 0 0 21px;
+}
+.newsletter-from h2 {
+    color: #fff;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+.newsletter-from input[type="submit"]:hover {
+    border-radius: 40px;
+}
