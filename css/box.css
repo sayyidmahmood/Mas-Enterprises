@@ -1,3 +1,173 @@
+img {
+  max-width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+textarea {
+  padding: 10px 15px;
+  width: 100%;
+}
+input[type="submit"] {
+  background: #0db8ca none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.padding {
+  padding: 80px 0;
+}
+.section-title:after {
+  background: #ca0d65 none repeat scroll 0 0;
+  bottom: -20px;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -68px;
+  position: absolute;
+  width: 135px;
+}
+.white-title {
+  color: #fff;
+}
+.section-content p {
+  padding: 0 105px;
+}
+.section-content {
+  margin: 0 0 50px;
+}
+.section-title:before {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #ca0d65;
+  bottom: -25px;
+  content: "";
+  height: 12px;
+  left: 50%;
+  margin-left: -8px;
+  position: absolute;
+  width: 12px;
+  z-index: 1;
+}
+
+/* Service CSS - 08 */
+
+.single-service-item {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 45px 20px;
+}
+.service-content h3 {
+  font-weight: normal;
+  margin: 0 0 15px;
+}
+.service-icon i.fa {
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+.single-service-item:hover {
+  background: #0db8ca none repeat scroll 0 0;
+  color: #fff;
+}
+.single-service-item:hover .service-icon {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+.service-icon {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.section-title {
+  font-weight: 900;
+  margin: 0 0 35px;
+  position: relative;
+  text-transform: uppercase;
+}
+/* Testimonial CSS - 09 */
+
+.testimonial-img {
+  height: 65px;
+  margin: 0 auto;
+  width: 65px;
+}
+.testimonial-img img {
+  border-radius: 50%;
+}
+.testimonial-text {
+  background: #0db8ca none repeat scroll 0 0;
+  color: #fff;
+  margin: 30px 0 0;
+  padding: 25px;
+  position: relative;
+}
+.testimonial-text:before {
+  border-bottom: 16px solid #0db8ca;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  content: "";
+  height: 0;
+  left: 50%;
+  margin-left: -17px;
+  position: absolute;
+  top: -16px;
+  width: 0;
+}
+.testimonial-text span {
+  color: #f1f1f1;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0 0;
+}
+.testimonial-text h4 {
+  margin: 15px 0 0;
+}
+.testimonial-wraper .owl-nav div {
+  background: #0db8ca none repeat scroll 0 0;
+  border: 2px solid #0db8ca;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 35px;
+  line-height: 27px;
+  margin: 20px 5px 0;
+  text-align: center;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 35px;
+}
+.testimonial-wraper .col-md-4 {
+  width: 100%;
+}
+
+/* Newsletter CSS - 13 */
+
+.newsletter-from input[type="email"] {
+  border: 3px solid #ca0d65;
+  margin: 0 0 21px;
+}
+.newsletter-from h2 {
+  color: #fff;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+.newsletter-from input[type="submit"]:hover {
+  border-radius: 40px;
+}
 
 
 
@@ -11,11 +181,6 @@
 .nav-tabs>li>a {
   border: 0;
 }
-
-
-
-
-
 ul.nav.nav-tabs {
   border-bottom: 0;
 }
@@ -288,179 +453,27 @@ ul.nav.nav-tabs li.active a:hover {
 }
 
 
+/* brand */
+  
+.mail-tab{width:100%;max-width:220px; height: 168px;; margin:0 auto;padding:25px 0px 25px 30px;background:#ffffff;border-radius:20px;position:relative;margin-top:10px;cursor:pointer;border:1px solid #ca0d65;box-shadow:0px 0px 20px #efefef;transition:all 0.5s ease 0s;}
+.mail-tab:hover, .mail-tab.active{background:#ffffff;border:1px solid rgba(240,172,13,1);box-shadow:0px 0px 20px #F9EABD;}
+.mail-tab .check-icon{position:absolute;top:-40px;margin:0 auto 0 -20px;left:50%;opacity:0;transition:all 0.5s ease 0s;}
+.mail-tab:hover .check-icon, .mail-tab.active .check-icon{opacity:1;top:-20px;}
+.mail-tab .check-icon img{width:40px;height:40px;border-radius:20px;box-shadow:0 1px 1px #168150 ;}
+.mail-tab .ctgy-icon{margin-left:8px;position:absolute;left:0%;}
+.brandbg{
+  /* background:url(../img/slider/slider-4.png) */
+  background-color: #ffffff;
+}
+.mail-tab:hover i, .mail-tab.active i{color:#f2f2f2}
+.mail-tab .cta-btn{position:absolute;width:100%;bottom:-25px;margin-left:-25px;text-align:center;opacity:0;transition:all 0.5s ease 0s;}
+.mail-tab:hover .cta-btn, .mail-tab.active .cta-btn{opacity:1;bottom:-9px;}
+.fuller{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;}
 
 
 
 
 
 
-img {
-    max-width: 100%;
-}
-input[type="text"],
-input[type="email"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="password"],
-textarea {
-    padding: 10px 15px;
-    width: 100%;
-}
-input[type="submit"] {
-    background: #0db8ca none repeat scroll 0 0;
-    border: medium none;
-    color: #fff;
-    padding: 10px 25px;
-    text-transform: uppercase;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-ul {
-    margin: 0;
-    padding: 0;
-}
-p {
-    margin: 0;
-}
 
-.padding {
-    padding: 80px 0;
-}
-.section-title:after {
-    background: #0db8ca none repeat scroll 0 0;
-    bottom: -20px;
-    content: "";
-    height: 2px;
-    left: 50%;
-    margin-left: -68px;
-    position: absolute;
-    width: 135px;
-}
-.white-title {
-    color: #fff;
-}
-.section-content p {
-    padding: 0 105px;
-}
-.section-content {
-    margin: 0 0 50px;
-}
-.section-title:before {
-    background: #fff none repeat scroll 0 0;
-    border: 2px solid #0db8ca;
-    bottom: -25px;
-    content: "";
-    height: 12px;
-    left: 50%;
-    margin-left: -8px;
-    position: absolute;
-    width: 12px;
-    z-index: 1;
-}
 
-/* Service CSS - 08 */
-
-.single-service-item {
-    background: #fff none repeat scroll 0 0;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    padding: 45px 20px;
-}
-.service-content h3 {
-    font-weight: normal;
-    margin: 0 0 15px;
-}
-.service-icon i.fa {
-    font-size: 25px;
-    margin: 0 0 15px;
-}
-.single-service-item:hover {
-    background: #0db8ca none repeat scroll 0 0;
-    color: #fff;
-}
-.single-service-item:hover .service-icon {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-}
-.service-icon {
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-.section-title {
-    font-weight: 900;
-    margin: 0 0 35px;
-    position: relative;
-    text-transform: uppercase;
-}
-/* Testimonial CSS - 09 */
-
-.testimonial-img {
-    height: 65px;
-    margin: 0 auto;
-    width: 65px;
-}
-.testimonial-img img {
-    border-radius: 50%;
-}
-.testimonial-text {
-    background: #0db8ca none repeat scroll 0 0;
-    color: #fff;
-    margin: 30px 0 0;
-    padding: 25px;
-    position: relative;
-}
-.testimonial-text:before {
-    border-bottom: 16px solid #0db8ca;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
-    content: "";
-    height: 0;
-    left: 50%;
-    margin-left: -17px;
-    position: absolute;
-    top: -16px;
-    width: 0;
-}
-.testimonial-text span {
-    color: #f1f1f1;
-    display: block;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 10px 0 0;
-}
-.testimonial-text h4 {
-    margin: 15px 0 0;
-}
-.testimonial-wraper .owl-nav div {
-    background: #0db8ca none repeat scroll 0 0;
-    border: 2px solid #0db8ca;
-    color: #fff;
-    display: inline-block;
-    font-size: 20px;
-    height: 35px;
-    line-height: 27px;
-    margin: 20px 5px 0;
-    text-align: center;
-    -webkit-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-    width: 35px;
-}
-.testimonial-wraper .col-md-4 {
-    width: 100%;
-}
-
-/* Newsletter CSS - 13 */
-
-.newsletter-from input[type="email"] {
-    border: 3px solid #0db8ca;
-    margin: 0 0 21px;
-}
-.newsletter-from h2 {
-    color: #fff;
-    margin: 15px 0;
-    text-transform: uppercase;
-}
-.newsletter-from input[type="submit"]:hover {
-    border-radius: 40px;
-}
