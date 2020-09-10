@@ -71,14 +71,14 @@
   });
 
   //owl carousel
-  $('#owl-works').owlCarousel({
-    items: 4,
-    itemsDesktop: [1199, 5],
-    itemsDesktopSmall: [980, 5],
-    itemsTablet: [768, 5],
-    itemsTabletSmall: [550, 2],
-    itemsMobile: [480, 2],
-  });
+  // $('#owl-works').owlCarousel({
+  //   items: 4,
+  //   itemsDesktop: [1199, 5],
+  //   itemsDesktopSmall: [980, 5],
+  //   itemsTablet: [768, 5],
+  //   itemsTabletSmall: [550, 2],
+  //   itemsMobile: [480, 2],
+  // });
 
   //nivo lightbox
   $('.owl-carousel .item a').nivoLightbox({

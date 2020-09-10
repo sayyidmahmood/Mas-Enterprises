@@ -115,7 +115,7 @@
         
         
         /* Sticky JS */
-        $(".header-area").sticky({topSpacing:0});
+        // $(".header-area").sticky({topSpacing:0});
         
         /* Smooth Menu JS */
         $('li.smooth-menu a').bind('click', function(event) {
@@ -135,15 +135,15 @@
 		}); 
         
         /* Magnific Popup JS */
-        $('.protfolio-btn a').magnificPopup({
-          type: 'image',
-          gallery:{
-            enabled:true
-          }          
-        }); 
+        // $('.protfolio-btn a').magnificPopup({
+        //   type: 'image',
+        //   gallery:{
+        //     enabled:true
+        //   }          
+        // }); 
         
         /* MixItUp JS*/
-        $('#protfolio-wrapper').mixItUp();
+        // $('#protfolio-wrapper').mixItUp();
         
         /* Accordian JS */
         $('.accordion-toggle').on('click', function(){
@@ -173,30 +173,30 @@
         });
         
         /* Google Map JS */
-         $(function () {
-            $('.map')
-              .gmap3({
-                center: [23.810331,90.412521],
-                zoom: 6,
-                scrollwheel: false,
-              })
-              .cluster({
-                markers: [
-                  {position: [23.810331, 90.412521]},
-                ],
-                cb: function (markers) {
-                  if (markers.length > 1) { // 1 marker stay unchanged (because cb returns nothing)
-                    if (markers.length < 20) {
-                      return {
-                        content: "<div class='cluster cluster-1'>" + markers.length + "</div>",
-                        x: -26,
-                        y: -26
-                      };
-                    }
-                  }
-                }
-              });
-          });
+        //  $(function () {
+        //     $('.map')
+        //       .gmap3({
+        //         center: [23.810331,90.412521],
+        //         zoom: 6,
+        //         scrollwheel: false,
+        //       })
+        //       .cluster({
+        //         markers: [
+        //           {position: [23.810331, 90.412521]},
+        //         ],
+        //         cb: function (markers) {
+        //           if (markers.length > 1) { // 1 marker stay unchanged (because cb returns nothing)
+        //             if (markers.length < 20) {
+        //               return {
+        //                 content: "<div class='cluster cluster-1'>" + markers.length + "</div>",
+        //                 x: -26,
+        //                 y: -26
+        //               };
+        //             }
+        //           }
+        //         }
+        //       });
+        //   });
 
     });	
 

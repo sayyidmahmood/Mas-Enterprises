@@ -294,7 +294,7 @@ ul.nav.nav-tabs li.active a:hover {
 /* 7.Counter Area
 /*----------------------------------------*/
 .counter-area{
-  background:#555;  padding-top: 40px;padding-bottom: 50px;
+  background:rgb(0, 0, 0);  padding-top: 40px;padding-bottom: 50px;
 }
 .cou{
   padding-bottom: 25px; 

@@ -92,92 +92,92 @@ windows.on('scroll', function() {
 /*--------------------------
      slider carousel
 ---------------------------- */
-    var intro_carousel = $('.intro-carousel');
-    intro_carousel.owlCarousel({
-        loop:true,
-        nav:true,		
-        autoplay:false,
-        dots:false,
-        navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
+    // var intro_carousel = $('.intro-carousel');
+    // intro_carousel.owlCarousel({
+    //     loop:true,
+    //     nav:true,		
+    //     autoplay:false,
+    //     dots:false,
+    //     navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:1
+    //         },
+    //         1000:{
+    //             items:1
+    //         }
+    //     }
+    // });
 
 /*--------------------------
      Services carousel
 ---------------------------- */
-	var services_carousel = $('.services-carousel');
-	services_carousel.owlCarousel({
-        loop:true,
-        nav:true,		
-        autoplay:false,
-        dots:false,
-        navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
-        responsive:{
-            0:{
-                items:1
-            },
-            700:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
+	// var services_carousel = $('.services-carousel');
+	// services_carousel.owlCarousel({
+    //     loop:true,
+    //     nav:true,		
+    //     autoplay:false,
+    //     dots:false,
+    //     navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         700:{
+    //             items:2
+    //         },
+    //         1000:{
+    //             items:3
+    //         }
+    //     }
+    // });
 /*--------------------------
      Project carousel
 ---------------------------- */
-	var project_carousel = $('.project-carousel');
-	project_carousel.owlCarousel({
-        loop:true,
-        nav:true,		
-        autoplay:false,
-        dots:false,
-        navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
-        responsive:{
-            0:{
-                items:1
-            },
-            700:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    });
+	// var project_carousel = $('.project-carousel');
+	// project_carousel.owlCarousel({
+    //     loop:true,
+    //     nav:true,		
+    //     autoplay:false,
+    //     dots:false,
+    //     navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         700:{
+    //             items:2
+    //         },
+    //         1000:{
+    //             items:4
+    //         }
+    //     }
+    // });
 /*--------------------------
      Project carousel 2
 ---------------------------- */
-    $('.project-carousel-2').owlCarousel({
-        loop:true,
-        nav:true,		
-        autoplay:false,
-        dots:false,
-		margin:30,
-        navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
-        responsive:{
-            0:{
-                items:1
-            },
-            700:{
-                items:2
-            },
-            1000:{
-                items:2
-            }
-        }
-    });
+    // $('.project-carousel-2').owlCarousel({
+    //     loop:true,
+    //     nav:true,		
+    //     autoplay:false,
+    //     dots:false,
+	// 	margin:30,
+    //     navText: ["<i class='icon icon-chevron-left'></i>","<i class='icon icon-chevron-right'></i>"],
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         700:{
+    //             items:2
+    //         },
+    //         1000:{
+    //             items:2
+    //         }
+    //     }
+    // });
 /*----------------------------
  isotope active
 ------------------------------ */
@@ -212,46 +212,46 @@ windows.on('scroll', function() {
 /*---------------------
  Testimonial carousel
 ---------------------*/
-    var review = $('.testimonial-carousel');
-    review.owlCarousel({
-		loop:true,
-		nav:false,
-        margin:15,
-		dots:true,
-		autoplay:false,
-		responsive:{
-			0:{
-				items:1
-			},
-			768:{
-				items:1
-			},
-			1000:{
-				items:1
-			}
-		}
-	});
+    // var review = $('.testimonial-carousel');
+    // review.owlCarousel({
+	// 	loop:true,
+	// 	nav:false,
+    //     margin:15,
+	// 	dots:true,
+	// 	autoplay:false,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1
+	// 		},
+	// 		768:{
+	// 			items:1
+	// 		},
+	// 		1000:{
+	// 			items:1
+	// 		}
+	// 	}
+	// });
 /*----------------------------
   brand-carousel-carousel
 ------------------------------ */  
-    $('.brand-carousel').owlCarousel({
-        loop:true,
-        margin:30,
-        nav:false,		
-        autoplay:true,
-        dots:false,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:6
-            }
-        }
-    });
+    // $('.brand-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:30,
+    //     nav:false,		
+    //     autoplay:true,
+    //     dots:false,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:3
+    //         },
+    //         1000:{
+    //             items:6
+    //         }
+    //     }
+    // });
 	
 /*----------------------------
     Contact form

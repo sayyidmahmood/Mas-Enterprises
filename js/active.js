@@ -1,13 +1,3 @@
-/*********************************************************************************
-
-    Template Name: Fsulting - Financial Consulting Bootstrap 4 Template
-	Description: Fsulting is a beautiful and unique financial & consulting html template which comes with bootstrap 4 framework.
-	Version: 1
-
-	Note: This is active js. Plugins activation code here.
-
-**********************************************************************************/
-
 
 /*===============================================================================
 			[ INDEX ]
