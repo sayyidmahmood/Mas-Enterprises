@@ -454,24 +454,33 @@ ul.nav.nav-tabs li.active a:hover {
 
 
 /* brand */
-  
-.mail-tab{width:100%;max-width:222px; height: 168px; margin:0 auto;padding:20px 0px 25px 30px;background:#ffffff;border-radius:20px;position:relative;margin-top:10px;cursor:pointer;border:1px solid #ca0d65;box-shadow:0px 0px 20px #efefef;transition:all 0.5s ease 0s;}
-.mail-tab:hover, .mail-tab.active{background:#ffffff;border:1px solid rgba(240,172,13,1);box-shadow:0px 0px 20px #F9EABD;}
-.mail-tab .check-icon{position:absolute;top:-40px;margin:0 auto 0 -20px;left:50%;opacity:0;transition:all 0.5s ease 0s;}
-.mail-tab:hover .check-icon, .mail-tab.active .check-icon{opacity:1;top:-21px;}
-.mail-tab .check-icon img{width:40px;height:40px;border-radius:0px;box-shadow:0 0px 1px #168150 ;}
-.mail-tab .ctgy-icon{margin-left:0px;position:absolute;left:0%;}
-.brandbg{
-  /* background:url(../img/slider/slider-4.png) */
-  background-color: #ffffff;
+
+
+.row {
+  margin:0;
 }
-.mail-tab:hover i, .mail-tab.active i{color:#f2f2f2}
-.mail-tab .cta-btn{position:absolute;width:100%;bottom:-25px;margin-left:-25px;text-align:center;opacity:0;transition:all 0.5s ease 0s;}
-.mail-tab:hover .cta-btn, .mail-tab.active .cta-btn{opacity:1;bottom:-9px;}
-.fuller{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;}
+
+
+.logo-wrapper {
+  height:200px;
+ 
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  border:solid 1px rgb(212, 212, 212);
+}
+.logo-wrapper:hover, .logo-wrapper.active{background:#ffffff;border:1px solid rgba(240,172,13,1);box-shadow:0px 0px 20px #F9EABD;}
+.logo-wrapper .check-icon{position:absolute;top:-40px;margin:0 auto 0 -20px;left:50%;opacity:0;transition:all 0.5s ease 0s;}
+.logo-wrapper:hover .check-icon, .mail-tab.active .check-icon{opacity:1;top:-21px;}
+.logo-wrapper .check-icon img{width:40px;height:40px;border-radius:0px;box-shadow:0 0px 1px #168150 ;}
 
 
 
+.logo-wrapper img {
+  max-height:100px;
+  max-width:100%;
+}
 
 
 
